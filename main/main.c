@@ -235,6 +235,7 @@ void app_main(void)
     ledc_update_duty(LEDC_MODE, LEDC_CHANNEL);
     ESP_LOGI(TAG_Fade, "Initial state: LED is OFF.");    
     
+
     while (1) {
         if (button_pressed) {
             // Debounce delay (adjust as needed)

@@ -1,1 +1,16 @@
+# Build artifacts
 /build/
+/sdkconfig
+/sdkconfig.old
+/dependencies.lock
+/managed_components/
+
+# Editor/IDE specific files (if applicable)
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Python virtual environment (if used)
+.venv/
+venv/
